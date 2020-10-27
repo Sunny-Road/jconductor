@@ -20,7 +20,7 @@ public class CliMain
 	static String zkBaseDir;
 	static String[][] validCmds = {
 			{"get_pfc", "", "Get the active conductor IP"},
-			{"create_volume", " -v <vol_namej> -s <size> [-r <replica_num>]", "create a volume"},
+			{"create_volume", " -v <vol_name> -s <size> [-r <replica_num>]", "create a volume"},
 			{"list_volume", "", "list volumes"}
 	};
 	private static void printUsage()
